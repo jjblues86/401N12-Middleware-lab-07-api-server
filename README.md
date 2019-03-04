@@ -30,9 +30,9 @@
 
 #### Tests
 * How do you run tests?
-`jest index.test.js`
+`jest server.test.js`
 * What assertions were made?
-`arithmetic methods such as add,subtract,multiply,divide.Greet to return Hello World`
+``
 * What assertions need to be / should be made?
-`Every test passed. No pending tests.`
+``
 
