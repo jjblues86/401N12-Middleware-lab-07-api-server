@@ -4,23 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jjblues86/401N12-Middleware-lab-07-api-server.git"
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jjblues86/401N12-Middleware-lab-07-api-server/issues"
-  },
   "homepage": "https://github.com/jjblues86/401N12-Middleware-lab-07-api-server#readme",
   "dependencies": {
-    "express": "^4.16.4"
-  },
-  "devDependencies": {
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "superagent": "^4.1.0",
+    "supertest": "^3.4.2",
     "jest": "^24.1.0"
   }
 }
